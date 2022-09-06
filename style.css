@@ -1,0 +1,29 @@
+body {
+    font-size: 16px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    overflow: hidden;
+    flex-direction: column;
+    font-family: monospace;
+}
+
+input[type="text"] {
+    font-family: monospace;
+    margin: 0.5rem;
+}
+
+input[type="text"]:focus {
+    outline: none;
+}
+
+button {
+    cursor: pointer;
+    margin-top: 1em;
+    background-color: white;
+    border: 1px solid #7f7f7f;
+    color: #7f7f7f;
+    border-radius: 2px;
+}
+
